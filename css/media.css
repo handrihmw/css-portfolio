@@ -1,0 +1,129 @@
+/*jika berukuran 980px atau kurang*/
+@media screen and (max-width : 980px){
+    #pagewrap{
+        width: 96%;
+    }
+    #content{
+        width: 66%;
+    }
+    #sidebar{
+        width: 30%;
+    }
+}
+
+/*jika berukuran 700px atau kurang*/
+@media screen and (max-width : 700px){
+    #content{
+        width: auto;
+        float: none;
+    }
+    #sidebar{
+        width: auto;
+        float: none;
+    }
+}
+
+/*jika berukuran 480px atau kurang*/
+@media screen and (max-width : 480px){
+    #header{
+        height: auto;
+    }
+    h1{
+        font-size: 24px;
+    }
+    #sidebar{
+       display: none;
+    }
+    #menu{
+       width: auto;
+    }
+    .menu-list{
+        width: auto;
+        float: none;
+    }
+    #nav ul {
+        position: static;
+        display: none;
+        }
+    #nav li {
+        border-bottom: 1px solid #333;
+        }
+    #nav ul li, #nav li a {
+        width: 100%;
+        }
+    #nav li a{
+        display:block;
+        height:auto;line-height:normal;
+        }
+    #nav li a {
+        text-align:left;
+        }
+    .show-menu {
+        display:block!important;
+        line-height:30px;
+        }
+    .show-menu:hover {
+        cursor:pointer;
+        }
+    label {
+        margin:0!important;
+        }
+}
+
+
+
+@media screen and (max-width:768px){
+    #nav ul {
+        position: static;
+        display: none;
+        }
+    #nav li {
+        border-bottom: 1px solid #333;
+        }
+    #nav ul li, #nav li a {
+        width: 100%;
+        }
+    #nav li a{
+        display:block;
+        height:auto;line-height:normal;
+        }
+    #nav li a {
+        text-align:left;
+        }
+    .show-menu {
+        display:block!important;
+        line-height:30px;
+        }
+    .show-menu:hover {
+        cursor:pointer;
+        }
+    label {
+        margin:0!important;
+        }
+        
+    .isi-footer{
+    width: auto;
+    height: 15px;
+    padding-left: 200px;
+    margin-top: 800px;
+    text-align: left;
+    line-height: 40px;
+    }
+    .content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    line-height: 40px;
+    font-family: 'Lato', sans-serif;
+    color: #ecf0f1;
+    height: 160px;
+    overflow: hidden;
+    }   
+
+}
+    
+  
+
